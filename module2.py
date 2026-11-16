@@ -1,0 +1,10 @@
+kg= float(input("What is your weight?"))
+m= float(input("What is your height?"))
+bmi= kg / (m ** 2)
+print(f"Your BMI is: {bmi:.2f}")
+Bill_amount= float(input("Bill amount: "))
+Tip_percent= int(input("Tip percent: "))
+tip_amount= Bill_amount * (Tip_percent / 100)
+total_amount= Bill_amount + tip_amount
+print(f"Tip amount: {tip_amount:.2f}")
+print(f"Total amount: {total_amount:.2f}")
